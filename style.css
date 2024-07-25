@@ -1,14 +1,33 @@
 h1 {
-  color: #44633F;
+  color: #8AAB75;
 }
 
 body {
-  color: #7D431C;
-/*  font-family: arial;, sans-serif;*/
+  color: white;
   font-family: Space Grotesk;
-  background-color: #B7C9B5;
+  background-color: #3A489A;
+  text-align: center;
+}
+
+
+ul {
   text-align: justify;
 }
+
+ol {
+  text-align: justify;
+}
+
+
+h4 {
+  vertical-align: middle;
+
+}
+
+h2{
+  color: #AE8A6F;
+}
+
 
 #logo {
   display : block;
@@ -30,6 +49,7 @@ body {
 #conteneur {
   display: flex;
   justify-content: space-between;
+  /text-align: center;
 }
 
 
@@ -38,9 +58,13 @@ header {
   margin: 50px;
 }
 
-#mon-image:hover {
+#mon-image {
   opacity: 0.8;
   cursor: pointer;
+  display: inline-block;
+  width: 150px; /* ou la largeur souhaitée */
+  height: auto; /* pour conserver les proportions */
+  margin: 10px; /* espace entre les images */
 }
 
 
